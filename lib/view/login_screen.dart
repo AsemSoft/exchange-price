@@ -34,10 +34,10 @@ class LoginScreen extends StatelessWidget {
                   // padding: EdgeInsets.all(10),
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    'اسعار الصرف',
+                    'EXTCHANGE PRICE',
                     style: TextStyle(
                         color: AppColores.white,
-                        fontSize: 30,
+                        fontSize: 35,
                         fontWeight: FontWeight.bold),
                   ),
                 ),
@@ -81,8 +81,8 @@ class LoginScreen extends StatelessWidget {
                             backgroundColor: AppColores.primaryColor,
                           ),
                           child: const Text(
-                            'إنشاء  حساب',
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                            'create account',
+                            style: TextStyle(fontWeight: FontWeight.bold,fontSize: 17),
                           ),
                         ),
                         ElevatedButton(
@@ -91,15 +91,15 @@ class LoginScreen extends StatelessWidget {
                               backgroundColor: MaterialStateProperty.all(
                                   AppColores.primaryColor)),
                           child: const Text(
-                            'تسجيل الدخول',
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                            'sign out',
+                            style: TextStyle(fontWeight: FontWeight.bold,fontSize: 17),
                           ),
                         ),
                       ],
                     ),
                   ),
                   TextFormField(
-                    initialValue: "اكتب اسمك",
+                    initialValue: "write your name",
                   ),
                 ],
               ))
