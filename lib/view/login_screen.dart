@@ -78,23 +78,32 @@ class LoginScreen extends StatelessWidget {
                         ElevatedButton(
                           onPressed: () {},
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: AppColores.primaryColor,
+                            backgroundColor: Colors.yellow,
+                            elevation: 10,
+                            shape: StadiumBorder(),
                           ),
                           child: const Text(
                             'create account',
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 17),
+                                fontWeight: FontWeight.bold,
+                                fontSize: 17,
+                                color: Colors.black),
                           ),
                         ),
                         ElevatedButton(
                           onPressed: () {},
-                          style: ButtonStyle(
-                              backgroundColor: MaterialStateProperty.all(
-                                  AppColores.primaryColor)),
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.yellow,
+                            elevation: 10,
+                            shape: StadiumBorder(),
+                          ),
                           child: const Text(
                             'sign out',
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 17),
+                              fontWeight: FontWeight.bold,
+                              fontSize: 17,
+                              color: Colors.black,
+                            ),
                           ),
                         ),
                       ],
