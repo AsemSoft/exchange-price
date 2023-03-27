@@ -52,7 +52,7 @@ class LoginScreen extends StatelessWidget {
                 borderRadius: const BorderRadius.all(Radius.circular(15)),
                 boxShadow: [
                   BoxShadow(
-                      color: Colors.grey.withOpacity(0.5),
+                      color: Colors.red.withOpacity(0.5),
                       spreadRadius: 5,
                       blurRadius: 3,
                       offset: const Offset(0, 3)),
@@ -82,7 +82,8 @@ class LoginScreen extends StatelessWidget {
                           ),
                           child: const Text(
                             'create account',
-                            style: TextStyle(fontWeight: FontWeight.bold,fontSize: 17),
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, fontSize: 17),
                           ),
                         ),
                         ElevatedButton(
@@ -92,7 +93,8 @@ class LoginScreen extends StatelessWidget {
                                   AppColores.primaryColor)),
                           child: const Text(
                             'sign out',
-                            style: TextStyle(fontWeight: FontWeight.bold,fontSize: 17),
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, fontSize: 17),
                           ),
                         ),
                       ],
